@@ -1,11 +1,13 @@
 # TasksClub_app_iOS
 ### This app based on the front-end made with SwiftUI and the back-end with PHP, MySQL database.
 
-Team work management application allows users to manage group work, users can add groups, edit groups, delete groups, find groups and enter any group.
-The application allows removing members from the group. The added person will be able to see all the work in the group and can complete, edit and delete any task in the group.
+👨‍👨‍👧‍ Team work management application allows users to manage group tasks, users can add groups, edit groups, delete groups, find groups and enter any group.
+The application allows removing members from the group. The added person will be able to see all the task in the group and can complete, edit and delete any task in the group.
 Users can add lists, edit lists, delete lists of data that will be synchronized with each other on the application and website.
-Users can add jobs, edit jobs, delete jobs, the data will be synchronized with each other on the application and website. Also on the iOS app you can add notifications for tasks.
-The application can list the things the user has in the group or the list includes unfinished work, completed work, bookmarks.
+
+
+Users can add task, edit task, delete task, the data will be synchronized with each other on the application and website. Also on the iOS app you can add notifications for tasks.
+The application can list the things the user has in the group or the list includes unfinished task, completed work, star task.
 The application allows users to manage personal information securely, passwords are completely encrypted.
 
 ###### It's onboarding
