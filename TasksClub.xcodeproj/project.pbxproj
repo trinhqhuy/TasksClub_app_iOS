@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA025EAA28513B4F00BD35E8 /* TasksClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA025EA928513B4F00BD35E8 /* TasksClubApp.swift */; };
+		FA025EAC28513B4F00BD35E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA025EAB28513B4F00BD35E8 /* ContentView.swift */; };
+		FA025EAE28513B5400BD35E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA025EAD28513B5400BD35E8 /* Assets.xcassets */; };
+		FA025EB128513B5400BD35E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA025EB028513B5400BD35E8 /* Preview Assets.xcassets */; };
+		FA025EBB28513B5500BD35E8 /* TasksClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA025EBA28513B5500BD35E8 /* TasksClubTests.swift */; };
+		FA025EC528513B5500BD35E8 /* TasksClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA025EC428513B5500BD35E8 /* TasksClubUITests.swift */; };
+		FA025EC728513B5500BD35E8 /* TasksClubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA025EC628513B5500BD35E8 /* TasksClubUITestsLaunchTests.swift */; };
+		FA2660472859A0700090C906 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2660462859A0700090C906 /* LoginView.swift */; };
+		FA2660492859A0810090C906 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2660482859A0810090C906 /* SignUpView.swift */; };
+		FA26604D2859B2500090C906 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26604C2859B2500090C906 /* UserViewModel.swift */; };
+		FA3F95D428549744008099F4 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F95D328549744008099F4 /* EditTaskView.swift */; };
+		FA3F95D62855BF6C008099F4 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F95D52855BF6C008099F4 /* AddTaskView.swift */; };
+		FA3F95D82855DB40008099F4 /* AddMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F95D72855DB40008099F4 /* AddMember.swift */; };
+		FA3F95DB28564270008099F4 /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F95DA28564270008099F4 /* AddListView.swift */; };
+		FA3F95DD28564BD4008099F4 /* EditListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F95DC28564BD4008099F4 /* EditListView.swift */; };
+		FA3F95DF28565043008099F4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F95DE28565043008099F4 /* UserModel.swift */; };
+		FA3F95E128579CD9008099F4 /* StartsStarTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F95E028579CD9008099F4 /* StartsStarTaskView.swift */; };
+		FA3F95E328579CEF008099F4 /* StartsTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F95E228579CEF008099F4 /* StartsTaskView.swift */; };
+		FA3F95E52857A12A008099F4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F95E42857A12A008099F4 /* ChartView.swift */; };
+		FA7BF21F28663A00004245F0 /* MangagerMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7BF21E28663A00004245F0 /* MangagerMember.swift */; };
+		FAE8DBBB28644C9F00F16BE2 /* InfoGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE8DBBA28644C9F00F16BE2 /* InfoGroup.swift */; };
+		FAE8DBBD2864649E00F16BE2 /* Onboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE8DBBC2864649E00F16BE2 /* Onboard.swift */; };
+		FAF632392851E62E0096AEC8 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF632382851E62E0096AEC8 /* TabBarView.swift */; };
+		FAF6323F285203C90096AEC8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6323E285203C90096AEC8 /* HomeView.swift */; };
+		FAF63241285203D50096AEC8 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF63240285203D50096AEC8 /* TasksView.swift */; };
+		FAF63243285203E00096AEC8 /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF63242285203E00096AEC8 /* ListsView.swift */; };
+		FAF63247285204100096AEC8 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF63246285204100096AEC8 /* StatsView.swift */; };
+		FAF632492852041B0096AEC8 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF632482852041B0096AEC8 /* AccountView.swift */; };
+		FAF6324D28520B2E0096AEC8 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6324C28520B2E0096AEC8 /* ListModel.swift */; };
+		FAF6324F28520C750096AEC8 /* ListsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6324E28520C750096AEC8 /* ListsViewModel.swift */; };
+		FAF63251285266E20096AEC8 /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF63250285266E20096AEC8 /* TasksViewModel.swift */; };
+		FAF632532852671C0096AEC8 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF632522852671C0096AEC8 /* TaskModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA025EB728513B5500BD35E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA025E9E28513B4F00BD35E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA025EA528513B4F00BD35E8;
+			remoteInfo = TasksClub;
+		};
+		FA025EC128513B5500BD35E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA025E9E28513B4F00BD35E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA025EA528513B4F00BD35E8;
+			remoteInfo = TasksClub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA025EA628513B4F00BD35E8 /* TasksClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasksClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA025EA928513B4F00BD35E8 /* TasksClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksClubApp.swift; sourceTree = "<group>"; };
+		FA025EAB28513B4F00BD35E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA025EAD28513B5400BD35E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA025EB028513B5400BD35E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA025EB628513B5500BD35E8 /* TasksClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA025EBA28513B5500BD35E8 /* TasksClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksClubTests.swift; sourceTree = "<group>"; };
+		FA025EC028513B5500BD35E8 /* TasksClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA025EC428513B5500BD35E8 /* TasksClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksClubUITests.swift; sourceTree = "<group>"; };
+		FA025EC628513B5500BD35E8 /* TasksClubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksClubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA2660462859A0700090C906 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FA2660482859A0810090C906 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		FA26604C2859B2500090C906 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		FA3F95D328549744008099F4 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		FA3F95D52855BF6C008099F4 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		FA3F95D72855DB40008099F4 /* AddMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMember.swift; sourceTree = "<group>"; };
+		FA3F95D928563E09008099F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FA3F95DA28564270008099F4 /* AddListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListView.swift; sourceTree = "<group>"; };
+		FA3F95DC28564BD4008099F4 /* EditListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListView.swift; sourceTree = "<group>"; };
+		FA3F95DE28565043008099F4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		FA3F95E028579CD9008099F4 /* StartsStarTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartsStarTaskView.swift; sourceTree = "<group>"; };
+		FA3F95E228579CEF008099F4 /* StartsTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartsTaskView.swift; sourceTree = "<group>"; };
+		FA3F95E42857A12A008099F4 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		FA7BF21E28663A00004245F0 /* MangagerMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangagerMember.swift; sourceTree = "<group>"; };
+		FAE8DBBA28644C9F00F16BE2 /* InfoGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoGroup.swift; sourceTree = "<group>"; };
+		FAE8DBBC2864649E00F16BE2 /* Onboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard.swift; sourceTree = "<group>"; };
+		FAF632382851E62E0096AEC8 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		FAF6323E285203C90096AEC8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FAF63240285203D50096AEC8 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		FAF63242285203E00096AEC8 /* ListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsView.swift; sourceTree = "<group>"; };
+		FAF63246285204100096AEC8 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		FAF632482852041B0096AEC8 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		FAF6324C28520B2E0096AEC8 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		FAF6324E28520C750096AEC8 /* ListsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewModel.swift; sourceTree = "<group>"; };
+		FAF63250285266E20096AEC8 /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
+		FAF632522852671C0096AEC8 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA025EA328513B4F00BD35E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA025EB328513B5500BD35E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA025EBD28513B5500BD35E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA025E9D28513B4F00BD35E8 = {
+			isa = PBXGroup;
+			children = (
+				FA025EA828513B4F00BD35E8 /* TasksClub */,
+				FA025EB928513B5500BD35E8 /* TasksClubTests */,
+				FA025EC328513B5500BD35E8 /* TasksClubUITests */,
+				FA025EA728513B4F00BD35E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA025EA728513B4F00BD35E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA025EA628513B4F00BD35E8 /* TasksClub.app */,
+				FA025EB628513B5500BD35E8 /* TasksClubTests.xctest */,
+				FA025EC028513B5500BD35E8 /* TasksClubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA025EA828513B4F00BD35E8 /* TasksClub */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F95D928563E09008099F4 /* Info.plist */,
+				FA025EA928513B4F00BD35E8 /* TasksClubApp.swift */,
+				FA025EAB28513B4F00BD35E8 /* ContentView.swift */,
+				FAF632332851E5790096AEC8 /* Model */,
+				FAF632352851E5960096AEC8 /* View */,
+				FAF632372851E5DB0096AEC8 /* ViewModel */,
+				FA025EAD28513B5400BD35E8 /* Assets.xcassets */,
+				FA025EAF28513B5400BD35E8 /* Preview Content */,
+			);
+			path = TasksClub;
+			sourceTree = "<group>";
+		};
+		FA025EAF28513B5400BD35E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA025EB028513B5400BD35E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA025EB928513B5500BD35E8 /* TasksClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA025EBA28513B5500BD35E8 /* TasksClubTests.swift */,
+			);
+			path = TasksClubTests;
+			sourceTree = "<group>";
+		};
+		FA025EC328513B5500BD35E8 /* TasksClubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA025EC428513B5500BD35E8 /* TasksClubUITests.swift */,
+				FA025EC628513B5500BD35E8 /* TasksClubUITestsLaunchTests.swift */,
+			);
+			path = TasksClubUITests;
+			sourceTree = "<group>";
+		};
+		FAF632332851E5790096AEC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6324C28520B2E0096AEC8 /* ListModel.swift */,
+				FAF632522852671C0096AEC8 /* TaskModel.swift */,
+				FA3F95DE28565043008099F4 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAF632352851E5960096AEC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8DBBC2864649E00F16BE2 /* Onboard.swift */,
+				FAF632382851E62E0096AEC8 /* TabBarView.swift */,
+				FAF6323A285203A40096AEC8 /* Home */,
+				FAF6323B285203AE0096AEC8 /* Tasks */,
+				FAF6323C285203B50096AEC8 /* Stats */,
+				FAF6323D285203BC0096AEC8 /* Account */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAF632372851E5DB0096AEC8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6324E28520C750096AEC8 /* ListsViewModel.swift */,
+				FAF63250285266E20096AEC8 /* TasksViewModel.swift */,
+				FA26604C2859B2500090C906 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FAF6323A285203A40096AEC8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6323E285203C90096AEC8 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FAF6323B285203AE0096AEC8 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF63244285203E80096AEC8 /* ListsView */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		FAF6323C285203B50096AEC8 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				FAF63246285204100096AEC8 /* StatsView.swift */,
+				FA3F95E028579CD9008099F4 /* StartsStarTaskView.swift */,
+				FA3F95E228579CEF008099F4 /* StartsTaskView.swift */,
+				FA3F95E42857A12A008099F4 /* ChartView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		FAF6323D285203BC0096AEC8 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				FAF632482852041B0096AEC8 /* AccountView.swift */,
+				FA2660462859A0700090C906 /* LoginView.swift */,
+				FA2660482859A0810090C906 /* SignUpView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		FAF63244285203E80096AEC8 /* ListsView */ = {
+			isa = PBXGroup;
+			children = (
+				FAF63242285203E00096AEC8 /* ListsView.swift */,
+				FA3F95DC28564BD4008099F4 /* EditListView.swift */,
+				FA3F95DA28564270008099F4 /* AddListView.swift */,
+				FAF63245285203F40096AEC8 /* TasksView */,
+				FAE8DBBA28644C9F00F16BE2 /* InfoGroup.swift */,
+			);
+			path = ListsView;
+			sourceTree = "<group>";
+		};
+		FAF63245285203F40096AEC8 /* TasksView */ = {
+			isa = PBXGroup;
+			children = (
+				FAF63240285203D50096AEC8 /* TasksView.swift */,
+				FA7BF21E28663A00004245F0 /* MangagerMember.swift */,
+				FA3F95D328549744008099F4 /* EditTaskView.swift */,
+				FA3F95D52855BF6C008099F4 /* AddTaskView.swift */,
+				FA3F95D72855DB40008099F4 /* AddMember.swift */,
+			);
+			path = TasksView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA025EA528513B4F00BD35E8 /* TasksClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA025ECA28513B5500BD35E8 /* Build configuration list for PBXNativeTarget "TasksClub" */;
+			buildPhases = (
+				FA025EA228513B4F00BD35E8 /* Sources */,
+				FA025EA328513B4F00BD35E8 /* Frameworks */,
+				FA025EA428513B4F00BD35E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TasksClub;
+			packageProductDependencies = (
+			);
+			productName = TasksClub;
+			productReference = FA025EA628513B4F00BD35E8 /* TasksClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA025EB528513B5500BD35E8 /* TasksClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA025ECD28513B5500BD35E8 /* Build configuration list for PBXNativeTarget "TasksClubTests" */;
+			buildPhases = (
+				FA025EB228513B5500BD35E8 /* Sources */,
+				FA025EB328513B5500BD35E8 /* Frameworks */,
+				FA025EB428513B5500BD35E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA025EB828513B5500BD35E8 /* PBXTargetDependency */,
+			);
+			name = TasksClubTests;
+			productName = TasksClubTests;
+			productReference = FA025EB628513B5500BD35E8 /* TasksClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA025EBF28513B5500BD35E8 /* TasksClubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA025ED028513B5500BD35E8 /* Build configuration list for PBXNativeTarget "TasksClubUITests" */;
+			buildPhases = (
+				FA025EBC28513B5500BD35E8 /* Sources */,
+				FA025EBD28513B5500BD35E8 /* Frameworks */,
+				FA025EBE28513B5500BD35E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA025EC228513B5500BD35E8 /* PBXTargetDependency */,
+			);
+			name = TasksClubUITests;
+			productName = TasksClubUITests;
+			productReference = FA025EC028513B5500BD35E8 /* TasksClubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA025E9E28513B4F00BD35E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FA025EA528513B4F00BD35E8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FA025EB528513B5500BD35E8 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FA025EA528513B4F00BD35E8;
+					};
+					FA025EBF28513B5500BD35E8 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FA025EA528513B4F00BD35E8;
+					};
+				};
+			};
+			buildConfigurationList = FA025EA128513B4F00BD35E8 /* Build configuration list for PBXProject "TasksClub" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA025E9D28513B4F00BD35E8;
+			packageReferences = (
+			);
+			productRefGroup = FA025EA728513B4F00BD35E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA025EA528513B4F00BD35E8 /* TasksClub */,
+				FA025EB528513B5500BD35E8 /* TasksClubTests */,
+				FA025EBF28513B5500BD35E8 /* TasksClubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA025EA428513B4F00BD35E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA025EB128513B5400BD35E8 /* Preview Assets.xcassets in Resources */,
+				FA025EAE28513B5400BD35E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA025EB428513B5500BD35E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA025EBE28513B5500BD35E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA025EA228513B4F00BD35E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF6324D28520B2E0096AEC8 /* ListModel.swift in Sources */,
+				FA26604D2859B2500090C906 /* UserViewModel.swift in Sources */,
+				FAE8DBBB28644C9F00F16BE2 /* InfoGroup.swift in Sources */,
+				FA3F95D428549744008099F4 /* EditTaskView.swift in Sources */,
+				FA3F95E328579CEF008099F4 /* StartsTaskView.swift in Sources */,
+				FA025EAC28513B4F00BD35E8 /* ContentView.swift in Sources */,
+				FA3F95E128579CD9008099F4 /* StartsStarTaskView.swift in Sources */,
+				FA2660492859A0810090C906 /* SignUpView.swift in Sources */,
+				FAF6324F28520C750096AEC8 /* ListsViewModel.swift in Sources */,
+				FA3F95D62855BF6C008099F4 /* AddTaskView.swift in Sources */,
+				FAF6323F285203C90096AEC8 /* HomeView.swift in Sources */,
+				FA2660472859A0700090C906 /* LoginView.swift in Sources */,
+				FAF632392851E62E0096AEC8 /* TabBarView.swift in Sources */,
+				FA025EAA28513B4F00BD35E8 /* TasksClubApp.swift in Sources */,
+				FA3F95DD28564BD4008099F4 /* EditListView.swift in Sources */,
+				FAF632532852671C0096AEC8 /* TaskModel.swift in Sources */,
+				FAF632492852041B0096AEC8 /* AccountView.swift in Sources */,
+				FAF63243285203E00096AEC8 /* ListsView.swift in Sources */,
+				FAF63247285204100096AEC8 /* StatsView.swift in Sources */,
+				FA3F95DB28564270008099F4 /* AddListView.swift in Sources */,
+				FA3F95D82855DB40008099F4 /* AddMember.swift in Sources */,
+				FAE8DBBD2864649E00F16BE2 /* Onboard.swift in Sources */,
+				FA3F95E52857A12A008099F4 /* ChartView.swift in Sources */,
+				FAF63241285203D50096AEC8 /* TasksView.swift in Sources */,
+				FA3F95DF28565043008099F4 /* UserModel.swift in Sources */,
+				FAF63251285266E20096AEC8 /* TasksViewModel.swift in Sources */,
+				FA7BF21F28663A00004245F0 /* MangagerMember.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA025EB228513B5500BD35E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA025EBB28513B5500BD35E8 /* TasksClubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA025EBC28513B5500BD35E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA025EC528513B5500BD35E8 /* TasksClubUITests.swift in Sources */,
+				FA025EC728513B5500BD35E8 /* TasksClubUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA025EB828513B5500BD35E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA025EA528513B4F00BD35E8 /* TasksClub */;
+			targetProxy = FA025EB728513B5500BD35E8 /* PBXContainerItemProxy */;
+		};
+		FA025EC228513B5500BD35E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA025EA528513B4F00BD35E8 /* TasksClub */;
+			targetProxy = FA025EC128513B5500BD35E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA025EC828513B5500BD35E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA025EC928513B5500BD35E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA025ECB28513B5500BD35E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TasksClub/Preview Content\"";
+				DEVELOPMENT_TEAM = 68TQ76JZ2L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TasksClub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tasksclub.com.TasksClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA025ECC28513B5500BD35E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TasksClub/Preview Content\"";
+				DEVELOPMENT_TEAM = 68TQ76JZ2L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TasksClub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tasksclub.com.TasksClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA025ECE28513B5500BD35E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68TQ76JZ2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tasksclub.com.TasksClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasksClub.app/TasksClub";
+			};
+			name = Debug;
+		};
+		FA025ECF28513B5500BD35E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68TQ76JZ2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tasksclub.com.TasksClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasksClub.app/TasksClub";
+			};
+			name = Release;
+		};
+		FA025ED128513B5500BD35E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68TQ76JZ2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tasksclub.com.TasksClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasksClub;
+			};
+			name = Debug;
+		};
+		FA025ED228513B5500BD35E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68TQ76JZ2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tasksclub.com.TasksClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasksClub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA025EA128513B4F00BD35E8 /* Build configuration list for PBXProject "TasksClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA025EC828513B5500BD35E8 /* Debug */,
+				FA025EC928513B5500BD35E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA025ECA28513B5500BD35E8 /* Build configuration list for PBXNativeTarget "TasksClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA025ECB28513B5500BD35E8 /* Debug */,
+				FA025ECC28513B5500BD35E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA025ECD28513B5500BD35E8 /* Build configuration list for PBXNativeTarget "TasksClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA025ECE28513B5500BD35E8 /* Debug */,
+				FA025ECF28513B5500BD35E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA025ED028513B5500BD35E8 /* Build configuration list for PBXNativeTarget "TasksClubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA025ED128513B5500BD35E8 /* Debug */,
+				FA025ED228513B5500BD35E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA025E9E28513B4F00BD35E8 /* Project object */;
+}
