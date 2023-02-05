@@ -1,4 +1,4 @@
-# TasksClub_app_iOS
+# TasksClub app on iOS
 ### This app based on the front-end made with SwiftUI and the back-end with PHP, MySQL database.
 
 👨‍👨‍👧‍ Team work management application allows users to manage group tasks, users can add groups, edit groups, delete groups, find groups and enter any group.
