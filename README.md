@@ -1,14 +1,14 @@
 # TasksClub app on iOS
-### This app based on the front-end made with SwiftUI and the back-end with PHP, MySQL database.
+### This application is built with SwiftUI for the front end and PHP and a MySQL database for the back end. 
 
-👨‍👨‍👧‍ Team work management application allows users to manage group tasks, users can add groups, edit groups, delete groups, find groups and enter any group.
-The application allows removing members from the group. The added person will be able to see all the task in the group and can complete, edit and delete any task in the group.
-Users can add lists, edit lists, delete lists of data that will be synchronized with each other on the application and website.
+👨‍👨‍👧‍ Users using team work management applications can add, update, remove, find, and enter any number of groups as well as manage group tasks.
+The application allows group members to be dismissed. The newly added member will have access to all of the group's tasks and will be able to complete, edit, and delete any of them.
+Users have the ability to create, update, and remove lists of data that will be synchronized between the application and website.
 
 
-Users can add task, edit task, delete task, the data will be synchronized with each other on the application and website. Also on the iOS app you can add notifications for tasks.
-The application can list the things the user has in the group or the list includes unfinished task, completed work, star task.
-The application allows users to manage personal information securely, passwords are completely encrypted.
+Users can create, update, and delete tasks, and the data on the application and website will be synchronized. You may also create task notifications on the iOS app.
+The application can list the items the user has in the group or the list can include tasks that have been started but not done.
+Passwords are fully secured in the application, which enables users to manage personal information securely.
 
 ###### It's onboarding
 ![Picture1](https://user-images.githubusercontent.com/77260252/216784352-ff1ad35a-2e38-402c-949b-7fc261490797.png)
