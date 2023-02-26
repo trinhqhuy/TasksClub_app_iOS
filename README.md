@@ -10,7 +10,7 @@ Users can create, update, and delete tasks, and the data on the application and 
 The application can list the items the user has in the group or the list can include tasks that have been started but not done.
 Passwords are fully secured in the application, which enables users to manage personal information securely.
 
-###### It's onboarding
+###### It's onboard
 ![Picture1](https://user-images.githubusercontent.com/77260252/216784352-ff1ad35a-2e38-402c-949b-7fc261490797.png)
 
 ###### It's login page
